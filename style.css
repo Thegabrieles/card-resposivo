@@ -19,6 +19,8 @@ body {
 main.cards {
     display: flex;
     padding: 32px;
+    animation: bounceIn;
+    animation-duration: 1.5s;
 }
 
 main.cards section.card {
@@ -78,7 +80,7 @@ main.cards section.card.shop button {
 }
 
 main.cards section.card.about button {
-    background: linear-gradient(to right, #fe5f8f, #ffc7d9  );
+    background: linear-gradient(to right, #fe5f8f, #ffc7d9);
 }
 
 main.cards section.card.contact {
@@ -109,5 +111,5 @@ main.cards section.card.about {
 
     main.cards section.card button {
         font-size: 70%;
-    }  
+    }
 }
